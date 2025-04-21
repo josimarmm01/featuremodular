@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.feature_auth"
+    namespace = "com.example.feature_splash"
     compileSdk = 35
 
     defaultConfig {
@@ -59,5 +59,4 @@ dependencies {
 
     //Tests
     implementation(libs.androidx.junit)
-
 }

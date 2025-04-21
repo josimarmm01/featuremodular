@@ -41,7 +41,9 @@ android {
 
 dependencies {
 
+    implementation(project(":features:splash"))
     implementation(project(":features:auth"))
+
     // Core
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)

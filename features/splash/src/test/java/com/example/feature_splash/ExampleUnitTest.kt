@@ -1,4 +1,4 @@
-package com.example.feature_auth
+package com.example.feature_splash
 
 import org.junit.Test
 
