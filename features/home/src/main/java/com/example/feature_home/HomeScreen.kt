@@ -1,4 +1,4 @@
-package com.example.feature_auth.ui
+package com.example.feature_home
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -28,7 +28,9 @@ fun HomeScreen(navController: NavController) {
                 title = { Text("Home") },
                 actions = {
                     IconButton(onClick = {
-                        navController.popBackStack("loginScreen", inclusive = true)
+                        navController.navigate("loginScreen") {
+                            popUpTo("loginScreen") { inclusive = true }
+                        }
                     }) {
                         Icon(Icons.Default.ExitToApp, contentDescription = "Log out")
                     }

@@ -64,7 +64,7 @@ fun LoginScreen(
     LaunchedEffect(uiState) {
         if (uiState is LoginUiState.Success) {
             navController.navigate("homeScreen") {
-                popUpTo("loginScreen") { inclusive = true }
+                popUpTo("loginScreen") { inclusive = false }
             }
         }
     }

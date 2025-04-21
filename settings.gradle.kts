@@ -23,3 +23,4 @@ rootProject.name = "FeatureModular"
 include(":app")
 include(":features:auth")
 include(":features:splash")
+include(":features:home")
