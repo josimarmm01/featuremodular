@@ -5,9 +5,9 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.example.feature_splash.ui.SplashScreen
-import com.example.features_auth.ui.HomeScreen
-import com.example.features_auth.ui.LoginScreen
-import com.example.features_auth.ui.RegisterScreen
+import com.example.feature_auth.ui.HomeScreen
+import com.example.feature_auth.ui.LoginScreen
+import com.example.feature_auth.ui.RegisterScreen
 
 @Composable
 fun AppNavHost(navController: NavHostController) {

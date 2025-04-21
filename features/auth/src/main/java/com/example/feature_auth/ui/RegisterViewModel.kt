@@ -1,8 +1,8 @@
-package com.example.features_auth.ui
+package com.example.feature_auth.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.features_auth.domain.usecase.RegisterUseCase
+import com.example.feature_auth.domain.usecase.RegisterUseCase
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow

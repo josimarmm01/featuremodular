@@ -2,7 +2,7 @@ package com.example.featuremodular
 
 import android.app.Application
 import com.example.feature_splash.di.splashModule
-import com.example.features_auth.di.authModule
+import com.example.feature_auth.di.authModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
 

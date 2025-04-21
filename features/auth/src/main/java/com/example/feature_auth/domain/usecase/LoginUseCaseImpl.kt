@@ -1,7 +1,7 @@
-package com.example.features_auth.domain.usecase
+package com.example.feature_auth.domain.usecase
 
-import com.example.features_auth.domain.model.User
-import com.example.features_auth.domain.repository.AuthRepository
+import com.example.feature_auth.domain.model.User
+import com.example.feature_auth.domain.repository.AuthRepository
 import kotlinx.coroutines.flow.Flow
 
 class LoginUseCaseImpl(private val repository: AuthRepository) : LoginUseCase {

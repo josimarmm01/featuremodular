@@ -1,4 +1,4 @@
-package com.example.features_auth.domain.model
+package com.example.feature_auth.domain.model
 
 data class User(
     val id: String,

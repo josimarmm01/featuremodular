@@ -1,8 +1,8 @@
-package com.example.features_auth.data.repository
+package com.example.feature_auth.data.repository
 
-import com.example.features_auth.data.source.AuthService
-import com.example.features_auth.domain.model.User
-import com.example.features_auth.domain.repository.AuthRepository
+import com.example.feature_auth.data.source.AuthService
+import com.example.feature_auth.domain.model.User
+import com.example.feature_auth.domain.repository.AuthRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 

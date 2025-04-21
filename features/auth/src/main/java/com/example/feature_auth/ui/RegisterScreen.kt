@@ -1,4 +1,4 @@
-package com.example.features_auth.ui
+package com.example.feature_auth.ui
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box

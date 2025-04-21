@@ -1,6 +1,6 @@
-package com.example.features_auth.ui
+package com.example.feature_auth.ui
 
-import com.example.features_auth.domain.model.User
+import com.example.feature_auth.domain.model.User
 
 sealed class RegisterUiState {
     data object Idle : RegisterUiState()
