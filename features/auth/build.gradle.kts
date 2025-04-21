@@ -38,6 +38,8 @@ android {
 
 dependencies {
 
+    implementation(project(":core-network"))
+
     // Compose BOM
     implementation(platform(libs.androidx.compose.bom))
 

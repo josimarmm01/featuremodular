@@ -41,6 +41,7 @@ android {
 
 dependencies {
 
+    implementation(project(":core-network"))
     implementation(project(":features:splash"))
     implementation(project(":features:auth"))
     implementation(project(":features:home"))

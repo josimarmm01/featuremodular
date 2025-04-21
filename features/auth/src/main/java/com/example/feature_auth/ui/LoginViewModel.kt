@@ -19,7 +19,7 @@ class LoginViewModel(private val loginUseCase: LoginUseCase) : ViewModel() {
         viewModelScope.launch {
             loginUseCase.invoke(email, password).collect { result ->
                 _uiState.value = when {
-                    result.isSuccess -> LoginUiState.Success(user = result.getOrNull())
+                    result.isSuccess -> LoginUiState.Success
                     else -> LoginUiState.Error(message = result.exceptionOrNull()?.message)
                 }
             }

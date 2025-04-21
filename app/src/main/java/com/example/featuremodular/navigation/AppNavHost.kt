@@ -5,7 +5,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.example.feature_splash.ui.SplashScreen
-import com.example.feature_home.HomeScreen
+import com.example.feature_home.ui.HomeScreen
 import com.example.feature_auth.ui.LoginScreen
 import com.example.feature_auth.ui.RegisterScreen
 

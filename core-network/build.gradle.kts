@@ -1,11 +1,11 @@
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
-    alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.google.services)
 }
 
 android {
-    namespace = "com.example.feature_splash"
+    namespace = "com.example.core_network"
     compileSdk = 35
 
     defaultConfig {
@@ -31,34 +31,17 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
-    buildFeatures {
-        compose = true
-    }
 }
 
 dependencies {
-
-    implementation(project(":core-network"))
-
-    // Compose BOM
-    implementation(platform(libs.androidx.compose.bom))
-
-    // Compose UI
-    implementation(libs.androidx.ui)
-    implementation(libs.androidx.ui.graphics)
-    implementation(libs.androidx.ui.tooling.preview)
-    implementation(libs.androidx.material3)
-
-    // Navegação
-    implementation(libs.androidx.navigation.compose)
 
     // Koin
     implementation(libs.koin.android)
     implementation(libs.koin.androidx.compose)
 
-    // Coroutines / Flow
-    implementation(libs.jetbrains.kotlinx.coroutines.core)
+    //Firebase
+    implementation(libs.firebase.auth.ktx)
 
-    //Tests
-    implementation(libs.androidx.junit)
+    // Testes
+    testImplementation(libs.androidx.junit)
 }

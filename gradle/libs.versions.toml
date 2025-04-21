@@ -21,6 +21,10 @@ converterGson = "2.9.0"
 koinAndroid = "3.5.3"
 ksp = "2.0.0-1.0.22"
 room = "2.6.1"
+junit = "4.13.2"
+appcompat = "1.7.0"
+material = "1.12.0"
+firebaseAuthKtx = "23.2.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -54,6 +58,10 @@ converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref
 room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
 room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
 room-ktx = { module = "androidx.room:room-ktx", version.ref = "room" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+firebase-auth-ktx = { group = "com.google.firebase", name = "firebase-auth-ktx", version.ref = "firebaseAuthKtx" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
@@ -62,3 +70,4 @@ kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "ko
 android-library = { id = "com.android.library", version.ref = "agp" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+google-services = { id = "com.google.gms.google-services", version = "4.3.15" }

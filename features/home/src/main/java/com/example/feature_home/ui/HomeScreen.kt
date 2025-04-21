@@ -1,4 +1,4 @@
-package com.example.feature_home
+package com.example.feature_home.ui
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -18,16 +18,22 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
+import org.koin.androidx.compose.koinViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun HomeScreen(navController: NavController) {
+fun HomeScreen(
+    viewModel: HomeViewModel = koinViewModel(),
+    navController: NavController
+) {
     Scaffold(
         topBar = {
             TopAppBar(
                 title = { Text("Home") },
                 actions = {
                     IconButton(onClick = {
+
+                        viewModel.logout()
                         navController.navigate("loginScreen") {
                             popUpTo("loginScreen") { inclusive = true }
                         }

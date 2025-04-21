@@ -43,7 +43,7 @@ class RegisterViewModel(
                 .collect { result ->
                     result
                         .onSuccess { user ->
-                            _uiState.value = RegisterUiState.Success(user)
+                            _uiState.value = RegisterUiState.Success
                         }
                         .onFailure { error ->
                             _uiState.value = RegisterUiState.Error(error.message ?: "Falha no cadastro")
