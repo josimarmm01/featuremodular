@@ -1,4 +1,4 @@
-package com.example.feature_home.ui
+package com.example.feature_home.presentation
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize

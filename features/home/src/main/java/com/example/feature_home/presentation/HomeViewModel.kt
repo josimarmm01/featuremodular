@@ -1,4 +1,4 @@
-package com.example.feature_home.ui
+package com.example.feature_home.presentation
 
 import androidx.lifecycle.ViewModel
 import com.example.feature_home.domain.usecase.LogoutUseCase

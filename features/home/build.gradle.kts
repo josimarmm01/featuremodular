@@ -60,5 +60,6 @@ dependencies {
     implementation(libs.jetbrains.kotlinx.coroutines.core)
 
     //Tests
+    implementation(libs.mockk)
     implementation(libs.androidx.junit)
 }
