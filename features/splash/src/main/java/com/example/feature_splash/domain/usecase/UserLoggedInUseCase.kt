@@ -1,4 +1,4 @@
-package com.example.feature_splash.domain
+package com.example.feature_splash.domain.usecase
 
 import kotlinx.coroutines.flow.Flow
 

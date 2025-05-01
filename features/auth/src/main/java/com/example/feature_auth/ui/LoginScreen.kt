@@ -88,7 +88,7 @@ fun LoginScreen(
             ) {
 
                 Text(
-                    text = "Welcome Back 👋",
+                    text = "Welcome Back",
                     style = MaterialTheme.typography.headlineMedium,
                     modifier = Modifier.padding(bottom = 8.dp)
                 )

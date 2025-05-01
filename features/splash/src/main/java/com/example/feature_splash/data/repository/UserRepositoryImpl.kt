@@ -1,7 +1,7 @@
 package com.example.feature_splash.data.repository
 
 import com.example.core_network.data.FirebaseAuthDataSource
-import com.example.feature_splash.domain.UserRepository
+import com.example.feature_splash.domain.repository.UserRepository
 import kotlinx.coroutines.flow.Flow
 
 class UserRepositoryImpl(

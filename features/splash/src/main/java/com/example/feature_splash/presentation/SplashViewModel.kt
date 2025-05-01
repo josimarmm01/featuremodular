@@ -1,8 +1,8 @@
-package com.example.feature_splash.ui
+package com.example.feature_splash.presentation
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.feature_splash.domain.UserLoggedInUseCase
+import com.example.feature_splash.domain.usecase.UserLoggedInUseCase
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow

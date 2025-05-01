@@ -1,4 +1,4 @@
-package com.example.feature_splash.ui
+package com.example.feature_splash.presentation
 
 sealed class SplashUiState {
     data object Init : SplashUiState()

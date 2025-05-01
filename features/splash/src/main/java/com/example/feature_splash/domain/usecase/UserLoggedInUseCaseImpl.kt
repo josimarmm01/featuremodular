@@ -1,5 +1,6 @@
-package com.example.feature_splash.domain
+package com.example.feature_splash.domain.usecase
 
+import com.example.feature_splash.domain.repository.UserRepository
 import kotlinx.coroutines.flow.Flow
 
 class UserLoggedInUseCaseImpl(

@@ -1,4 +1,4 @@
-package com.example.feature_splash.ui
+package com.example.feature_splash.presentation
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
