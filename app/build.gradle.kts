@@ -5,6 +5,14 @@ plugins {
 }
 
 android {
+
+    packaging {
+        resources {
+            excludes += "/META-INF/LICENSE.md"
+            excludes += "/META-INF/LICENSE-notice.md"
+        }
+    }
+
     namespace = "com.example.featuremodular"
     compileSdk = 35
 
